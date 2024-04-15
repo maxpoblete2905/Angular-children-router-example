@@ -6,7 +6,13 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+
+    "delete:docs": "del-cli docs",
+    "build:href": "ng build --base-href ./",
+    "copy:dist": "copyfiles dist/portfolio/browser/* ./docs -f",
+    "build:github": "npm run delete:docs && npm run build:href && npm run copy:dist"
+
   },
   "private": true,
   "dependencies": {
@@ -29,6 +35,8 @@
     "@types/jasmine": "~5.1.0",
     "@typescript-eslint/eslint-plugin": "^7.6.0",
     "@typescript-eslint/parser": "^7.6.0",
+    "copyfiles": "^2.4.1",
+    "del-cli": "^5.1.0",
     "eslint": "^8.57.0",
     "jasmine-core": "~5.1.0",
     "karma": "~6.4.0",
