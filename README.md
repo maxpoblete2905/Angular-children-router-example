@@ -1,32 +1,32 @@
-# 📁 Portfolio
+# 📁 Ejemplo de Uso de Rutas en Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.3.
+Este proyecto es un ejemplo de cómo utilizar rutas en Angular y fue generado con [Angular CLI](https://github.com/angular/angular-cli) versión 17.3.3.
 
-## 🛠️ Development server
+## 🛠️ Servidor de Desarrollo
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Ejecuta `ng serve` para iniciar un servidor de desarrollo. Navega a `http://localhost:4200/`. La aplicación se recargará automáticamente si cambias alguno de los archivos fuente.
 
-## 🔧 Code scaffolding
+## 🔧 Estructura del Código
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Ejecuta `ng generate component nombre-del-componente` para generar un nuevo componente. También puedes usar `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## 🏗️ Build
+## 🏗️ Construcción
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Ejecuta `ng build` para construir el proyecto. Los artefactos de construcción se almacenarán en el directorio `dist/`.
 
-## 🧪 Running unit tests
+## 🧪 Ejecución de Pruebas Unitarias
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Ejecuta `ng test` para ejecutar las pruebas unitarias a través de [Karma](https://karma-runner.github.io).
 
-## 🎯 Running end-to-end tests
+## 🎯 Ejecución de Pruebas End-to-End
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Ejecuta `ng e2e` para ejecutar las pruebas end-to-end a través de una plataforma de tu elección. Para usar este comando, primero necesitas agregar un paquete que implemente las capacidades de pruebas end-to-end.
 
-## ❓ Further help
+## ❓ Ayuda Adicional
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Para obtener más ayuda sobre Angular CLI, usa `ng help` o visita la [Página de Resumen y Referencia de Comandos de Angular CLI](https://angular.io/cli).
 
-## 📦 Dependencies and Versions
+## 📦 Dependencias y Versiones
 
 - **Angular Animations**: ^17.3.0
 - **Angular Common**: ^17.3.0
@@ -40,15 +40,15 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 - **TSlib**: ^2.3.0
 - **Zone.js**: ~0.14.3
 
-## ▶️ Running the Project
+## ▶️ Ejecución del Proyecto
 
-To run the project locally, follow these steps:
+Para ejecutar el proyecto localmente, sigue estos pasos:
 
-1. Make sure you have Node.js and npm installed on your machine.
-2. Clone this repository to your local machine.
-3. Navigate to the project directory in your terminal.
-4. Run `npm install` to install the project dependencies.
-5. After the installation is complete, run `ng serve` to start the development server.
-6. Open your web browser and navigate to `http://localhost:4200/` to view the project.
+1. Asegúrate de tener Node.js y npm instalados en tu máquina.
+2. Clona este repositorio en tu máquina local.
+3. Navega al directorio del proyecto en tu terminal.
+4. Ejecuta `npm install` para instalar las dependencias del proyecto.
+5. Después de que la instalación esté completa, ejecuta `ng serve` para iniciar el servidor de desarrollo.
+6. Abre tu navegador web y navega a `http://localhost:4200/` para ver el proyecto.
 
-Now you should be able to see the project running locally on your machine.
+Ahora deberías poder ver el proyecto ejecutándose localmente en tu máquina.

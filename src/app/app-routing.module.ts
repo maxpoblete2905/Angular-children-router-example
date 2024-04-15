@@ -22,7 +22,6 @@ const routes: Routes = [
   },
   {
     path: '**',
-    component: Error404pageComponent,
     redirectTo: '404'
   }
 ];
