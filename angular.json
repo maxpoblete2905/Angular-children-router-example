@@ -20,14 +20,6 @@
       "sourceRoot": "src",
       "prefix": "app",
       "architect": {
-        "lint": {
-          "builder": "@angular-eslint/builder:lint",
-          "options": {
-            "lintFilePatterns": [
-              "src/**/*.ts"
-            ]
-          }
-        },
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
@@ -40,12 +32,8 @@
             "tsConfig": "tsconfig.app.json",
             "assets": [
               "src/favicon.ico",
-              "src/assets"  ,
-            {
-              "glob": "_redirects",
-              "input": "src",
-              "output": "/"
-            }          ],
+              "src/assets"
+            ],
             "styles": [
               "src/styles.css"
             ],
